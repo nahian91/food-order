@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ========== Page Title ========== -->
-    <title>Spice of Inida</title>
+    <title>Spice of India</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -27,10 +27,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <!-- ========== End Stylesheet ========== -->
-
-    <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
 
 </head>
 
@@ -166,58 +162,24 @@
                         <li><a href="menu.php">Menu</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="reviews.php">Reviews</a></li>
-                        <li><a href="faq.php">FAQs</a></li>
                         <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu animated fadeOutUp" style="display: none;">
+                                <li><a href="login.php">Login</a></li>
+                                <li><a href="registration.php">Registration</a></li>
+                                <li><a href="account.php">My Account</a></li>
+                                <li><a href="checkout.php">Checkout</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
 
                 <div class="attr-right">
                     <!-- Start Atribute Navigation -->
                     <div class="attr-nav attr-box">
-                        <ul>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
-                                    <i class="far fa-shopping-cart"></i>
-                                    <span class="badge">3</span>
-                                </a>
-                                <ul class="dropdown-menu cart-list">
-                                    <li>
-                                        <div class="thumb">
-                                            <a href="#" class="photo">
-                                                <img src="assets/img/shop/1.png" alt="Thumb">
-                                            </a>
-                                            <a href="#" class="remove-product">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h6><a href="#">Delica omtantur </a></h6>
-                                            <p>2x - <span class="price">$99.99</span></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="thumb">
-                                            <a href="#" class="photo">
-                                                <img src="assets/img/shop/2.png" alt="Thumb">
-                                            </a>
-                                            <a href="#" class="remove-product">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </div>
-                                        <div class="info">
-                                            <h6><a href="#">Omnes ocurreret</a></h6>
-                                            <p>1x - <span class="price">$33.33</span></p>
-                                        </div>
-                                    </li>
-                                    <li class="total">
-                                        <span class="pull-right"><strong>Total</strong>: $0.00</span>
-                                        <a href="#" class="btn btn-default btn-cart">Cart</a>
-                                        <a href="#" class="btn btn-default btn-cart">Checkout</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <a href="#" class="btn btn-primary">Sign In</a>
                     </div>
                     <!-- End Atribute Navigation -->
                 </div>

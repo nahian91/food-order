@@ -1,19 +1,19 @@
 <?php include ("header.php");?>
     
 
-    <div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/shape/11.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <h1>Special Food</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li>Food</li>
-                    </ul>
-                </div>
+<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/breadcumb.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1>About Us</h1>
+                <ul class="breadcrumb">
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li>About Us</li>
+                </ul>
             </div>
         </div>
     </div>
+</div>
 
     <!-- Start About
     ============================================= -->
@@ -22,7 +22,7 @@
             <div class="row align-center">
                 <div class="col-lg-6">
                     <div class="thumb-style-one">
-                        <img class="wow fadeInUp" src="assets/img/about/1.html" alt="Image Not Found">
+                        <img class="wow fadeInUp" src="assets/img/about/1.jpg" alt="Image Not Found">
                         <div class="contact-card-one wow fadeInLeft" data-wow-delay="200ms">
                             <a href="tel:+4733378901">
                                 <div class="icon">
@@ -66,27 +66,27 @@
                         <div class="swiper-wrapper">
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/1.html" alt="Thumb">
+                                <img src="assets/img/brand/1.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/2.html" alt="Thumb">
+                                <img src="assets/img/brand/2.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/3.html" alt="Thumb">
+                                <img src="assets/img/brand/2.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/4.html" alt="Thumb">
+                                <img src="assets/img/brand/4.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/5.html" alt="Thumb">
+                                <img src="assets/img/brand/5.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                         </div>
@@ -97,42 +97,6 @@
         </div>
     </div>
     <!-- End Brand -->
-
-    <!-- Start Fun Fact 
-    ============================================= -->
-    <div class="fun-fact-style-one-area default-padding">
-        <div class="container">
-            <div class="row align-center">
-                <div class="col-lg-6">
-                    <div class="fun-fact-style-one-items">
-                        <h2 class="split-text">Experience of  real recipes taste</h2>
-                        <div class="fun-fact-style-one-content">
-                            <div class="fun-fact">
-                                <div class="counter">
-                                    <div class="timer" data-to="98" data-speed="2000">98</div>
-                                    <div class="operator">K</div>
-                                </div>
-                                <span class="medium">Daily Orders</span>
-                            </div>
-                            <div class="fun-fact">
-                                <div class="counter">
-                                    <div class="timer" data-to="5" data-speed="2000">100</div>
-                                    <div class="operator">+</div>
-                                </div>
-                                <span class="medium">Menu & Dish</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1">
-                    <div class="thumb">
-                        <img class="wow fadeInRight" src="assets/img/illustration/16.html" alt="Image Not Found">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Fun Fact -->
 
     <!-- Start Chef Area 
     ============================================= -->
@@ -153,7 +117,7 @@
                 <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp">
                         <div class="thumb">
-                            <img src="assets/img/team/1.html" alt="Image Not Found">
+                            <img src="assets/img/team/1.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -183,7 +147,7 @@
                  <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp" data-wow-delay="100ms">
                         <div class="thumb">
-                            <img src="assets/img/team/2.html" alt="Image Not Found">
+                            <img src="assets/img/team/2.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -213,7 +177,7 @@
                  <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp" data-wow-delay="200ms">
                         <div class="thumb">
-                            <img src="assets/img/team/3.html" alt="Image Not Found">
+                            <img src="assets/img/team/3.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -243,7 +207,7 @@
                  <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp" data-wow-delay="300ms">
                         <div class="thumb">
-                            <img src="assets/img/team/4.html" alt="Image Not Found">
+                            <img src="assets/img/team/4.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -273,81 +237,5 @@
         </div>
     </div>
     <!-- End Chef Area -->
-
-    <!-- Start Testimonial 
-    ============================================= -->
-    <div class="testimonial-style-one-area default-padding text-center" style="background-image: url(assets/img/shape/4.html);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="testimonial-style-one-carousel swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Single item -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-style-one">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="tm-review">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="provider">
-                                                <h4>Best Chicken Fry</h4>
-                                            </div>
-                                            <p>
-                                                "Thanks to your web agency team for their professional work. The website they created for my business exceeded my expectations, and my clients have given positive feedback about its design and user-friendliness."
-                                            </p>
-                                            <div class="tm-proivder-thumb">
-                                                <img src="assets/img/food/1.jpg" alt="Image Not Found">
-                                                <img src="assets/img/team/10.jpg" alt="Image Not Found">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single item -->
-                            <!-- Single item -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-style-one">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="tm-review">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="provider">
-                                                <h4>This pizza is so good</h4>
-                                            </div>
-                                            <p>
-                                                "Thanks to your web agency team for their professional work. The website they created for my business exceeded my expectations, and my clients have given positive feedback about its design and user-friendliness."
-                                            </p>
-                                            <div class="tm-proivder-thumb">
-                                                <img src="assets/img/food/6.jpg" alt="Image Not Found">
-                                                <img src="assets/img/team/11.jpg" alt="Image Not Found">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single item -->
-                        </div>
-
-                    </div>
-                    <!-- Navigation -->
-                    <div class="testimonial-pagination">
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Testimonial Area -->
 
    <?php include ("footer.php");?>

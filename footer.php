@@ -6,7 +6,6 @@
                 <!-- Singel Item -->
                 <div class="col-lg-3 col-md-6 footer-item mt-50">
                     <div class="f-item about">
-                        <img src="assets/img/logo-3.png" alt="Image Not Found">
                         <p>
                             Discover culinary delights recipes and inspiration in our food haven.
                         </p>
@@ -127,7 +126,7 @@
                 <div class="row align-center">
                     <div class="col-lg-6">
                         <p>
-                            © Copyright 2025 Foodu. All Rights Reserved
+                            © Copyright 2025. All Rights Reserved
                         </p>
                     </div>
                 </div>

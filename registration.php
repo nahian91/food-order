@@ -1,14 +1,12 @@
 <?php include ("header.php");?>
-
-
 <div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/breadcumb.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <h1>Login</h1>
+                <h1>Registration</h1>
                 <ul class="breadcrumb">
                     <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                    <li>Login</li>
+                    <li>Registration</li>
                 </ul>
             </div>
         </div>
@@ -28,11 +26,25 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="login-forms">
-                            <h2>Welcome back</h2>
+                            <h2>Create an account</h2>
                             <p>
-                                Enter your email and password to continue
+                                Enter your details ato create a new account
                             </p>
                             <form action="#">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="First Name" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Last Name" type="text">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
@@ -43,21 +55,35 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <input class="form-control" placeholder="Password*" type="text">
+                                            <input class="form-control" placeholder="Telephone" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Password*" type="password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Confirm Password*" type="password">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <button type="submit">
-                                            Login
+                                            Register
                                         </button>
                                     </div>
                                 </div>
                             </form>
                             <div class="login-alternative">
                                 <p>
-                                    Don't have any account? <a href="register.html">Register Now</a>
+                                    Already have an account? <a href="login.html">Login Now</a>
                                 </p>
                             </div>
                         </div>
@@ -67,5 +93,5 @@
         </div>
     </div>
     <!-- End Login -->
-     
+    
   <?php include ("footer.php");?>

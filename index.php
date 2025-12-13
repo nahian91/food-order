@@ -74,282 +74,6 @@
     </div>
     <!-- End Banner -->
 
-    <!-- Start Food Menu 
-    ============================================= -->
-    <div class="food-menu-style-two-area secondary default-padding bg-cover" style="background-image: url(assets/img/shape/3.jpg);">
-        <div class="container">
-            <!-- Single Item -->
-            <div class="food-menu-style-two">
-                <div class="row align-center">
-                    <div class="col-lg-5">
-                        <div class="food-menu-style-two-thumb">
-                            <img class="wow fadeInDown" src="assets/img/menu/7.jpg" alt="Image Not Found">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="food-menu-style-two-content wow fadeInUp">
-                            <h4 class="sub-heading">Fast Food Items</h4>
-                            <ul class="meal-type">
-                                <li>Half</li>
-                                <li>Full</li>
-                            </ul>
-                            <ul class="meal-items">
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/1.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Chicken Alfredo</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$20</span>
-                                                <span>$30</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Ricotta / goat cheese / beetroot
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/2.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Fish &amp; Chips</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$36</span>
-                                                <span>$55</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Atlantic / chips / salad /tartare
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/3.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Ebony Fillet Steak</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$44</span>
-                                                <span>$88</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Truffle mash / pepper sauce.
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/4.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Chicken Alfredo</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$20</span>
-                                                <span>$30</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Ricotta / goat cheese / beetroot
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Item -->
-             <!-- Single Item -->
-            <div class="food-menu-style-two">
-                <div class="row align-center">
-                    <div class="col-lg-5">
-                        <div class="food-menu-style-two-thumb">
-                            <img class="wow fadeInUp" src="assets/img/menu/8.jpg" alt="Image Not Found">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="food-menu-style-two-content wow fadeInDown">
-                            <h4 class="sub-heading">Dessert Items</h4>
-                            <ul class="meal-type">
-                                <li>Half</li>
-                                <li>Full</li>
-                            </ul>
-                            <ul class="meal-items">
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/5.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Cupcakes</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$10</span>
-                                                <span>$20</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Ricotta / goat cheese / beetroot
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/6.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Brownies</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$16</span>
-                                                <span>$34</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Atlantic / chips / salad /tartare
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/7.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Muffins</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$22</span>
-                                                <span>$36</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Truffle mash / pepper sauce.
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumbnail">
-                                        <img src="assets/img/food/8.jpg" alt="Image Not Found">
-                                    </div>
-                                    <div class="content">
-                                        <div class="top">
-                                            <div class="title">
-                                                <h4><a href="shop-single.html">Cheesecakes</a></h4>
-                                            </div>
-                                            <div class="price">
-                                                <span>$34</span>
-                                                <span>$66</span>
-                                            </div>
-                                        </div>
-                                        <div class="bottom">
-                                            <div class="left">
-                                                <p>
-                                                    Ricotta / goat cheese / beetroot
-                                                </p>
-                                            </div>
-                                            <div class="right">
-                                                <p>
-                                                    Extra Free Juice.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Item -->
-        </div>
-    </div>
-    <!-- End Food Menu -->
-
     <!-- Start About 
     ============================================= -->
     <div class="about-style-two-area default-padding">
@@ -363,7 +87,7 @@
                 <div class="col-lg-5 offset-lg-1">
                     <div class="about-style-two-info">
                         <h4 class="sub-heading">Welcome At</h4>
-                        <h2 class="title split-text">Restan Restaurant</h2>
+                        <h2 class="title split-text">Spice Of India Restaurant</h2>
                         <p class="split-text">
                             Codulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now
                         </p>
@@ -390,6 +114,108 @@
         </div>
     </div>
     <!-- End About -->
+
+    <div class="container">
+        <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4 class="sub-title">Awesome Food</h4>
+                        <h2 class="title split-text">Popular Food of our Menus</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                     <div id="cat-set-meals" class="food-menu-style-two-content food-menu" style="margin-left: 0;">
+    <h4 class="sub-heading">Set Meals</h4>
+    <ul class="meal-items">
+
+        <li>
+            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="content">
+                <div class="top">
+                    <div class="title"><h4>Meal for 1 Person</h4></div>
+                    <div class="price"><span>£16.50</span></div>
+                </div>
+                <div class="bottom">
+                    <p>Starter: tandoori chicken, Main: chicken or lamb tikka masala, vegetable curry, pilau rice, nan bread and papadom.</p>
+                </div>
+                <button class="order-btn" data-name="Meal for 1 Person" data-price="16.50">Order</button>
+            </div>
+        </li>
+
+        <li>
+            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="content">
+                <div class="top">
+                    <div class="title"><h4>Non Vegetarian Thali for 2 People</h4></div>
+                    <div class="price"><span>£24.50</span></div>
+                </div>
+                <div class="bottom">
+                    <p>Chicken tikka, onion bhaji; lamb bhuna, chicken curry, mushroom bhaji, naan, pilau rice, papadom with mint sauce & onion salad.</p>
+                </div>
+                <button class="order-btn" data-name="Non Vegetarian Thali for 2 People" data-price="24.50">Order</button>
+            </div>
+        </li>
+
+        <li>
+            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="content">
+                <div class="top">
+                    <div class="title"><h4>Vegetable Set Meal for 1 Person</h4></div>
+                    <div class="price"><span>£13.50</span></div>
+                </div>
+                <div class="bottom">
+                    <p>Onion bhaji, vegetable masala, Bombay potato, pilau rice, papadom.</p>
+                </div>
+                <button class="order-btn" data-name="Vegetable Set Meal for 1 Person" data-price="13.50">Order</button>
+            </div>
+        </li>
+
+    </ul>
+</div>
+
+                </div>
+                <div class="col-lg-6">
+                   <div id="cat-our-specialties" class="food-menu-style-two-content food-menu" style="margin-left: 0;">
+    <h4 class="sub-heading">Our Specialties</h4>
+    <ul class="meal-items">
+
+        <li>
+            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="content">
+                <div class="top"><div class="title"><h4>King Prawn Masala</h4></div><div class="price"><span>£12.95</span></div></div>
+                <div class="bottom"><p>Fresh king prawns cooked in a spicy masala sauce with onions and peppers.</p></div>
+                <button class="order-btn" data-name="King Prawn Masala" data-price="12.95">Order</button>
+            </div>
+        </li>
+
+        <li>
+            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="content">
+                <div class="top"><div class="title"><h4>Lamb Tikka Masala</h4></div><div class="price"><span>£10.95</span></div></div>
+                <div class="bottom"><p>Tender lamb chunks cooked in creamy tomato masala sauce.</p></div>
+                <button class="order-btn" data-name="Lamb Tikka Masala" data-price="10.95">Order</button>
+            </div>
+        </li>
+
+        <li>
+            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="content">
+                <div class="top"><div class="title"><h4>Chicken Korma</h4></div><div class="price"><span>£9.95</span></div></div>
+                <div class="bottom"><p>Chicken cooked with cream, almonds, and mild spices for a delicate flavor.</p></div>
+                <button class="order-btn" data-name="Chicken Korma" data-price="9.95">Order</button>
+            </div>
+        </li>
+
+    </ul>
+</div>
+                </div>
+                <div class="col-lg-6">
+                  
+                </div>
+            </div>
+    </div>    
 
     <!-- Start Category 
     ============================================= -->
@@ -608,98 +434,5 @@
         </div>
     </div>
     <!-- End Testimonial Area -->
-
-    <!-- Start Blog 
-    ============================================= -->
-    <div class="blog-area home-blog default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h4 class="sub-title">News & Blog</h4>
-                        <h2 class="title split-text">Our Latest News & Blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Single Item -->
-                <div class="col-xl-4 col-md-6 mb-30">
-                    <div class="home-blog-style-one-item wow fadeInUp">
-                        <div class="thumb">
-                            <img src="assets/img/blog/1.jpg" alt="Image not Found">
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="#">Burger</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="content">
-                            <div class="info">
-                                <h4 class="post-title">
-                                    <a href="blog-single-with-sidebar.html">Announcing if attachment resolution sentiments at the projection.</a>
-                                </h4>
-                                <ul class="meta-tags">
-                                    <li>18 March, 2024</li>
-                                    <li><a href="#">Md Sohag</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-                <!-- Single Item -->
-                <div class="col-xl-4 col-md-6 mb-30">
-                    <div class="home-blog-style-one-item wow fadeInUp" data-wow-delay="200ms">
-                        <div class="thumb">
-                            <img src="assets/img/blog/2.jpg" alt="Image not Found">
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="#">Food</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="content">
-                            <div class="info">
-                                <h4 class="post-title">
-                                    <a href="blog-single-with-sidebar.html">This prefabricated passive are comfortable highly sustainable</a>
-                                </h4>
-                                <ul class="meta-tags">
-                                    <li>25 April, 2024</li>
-                                    <li><a href="#">Md Sohag</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-                 <!-- Single Item -->
-                <div class="col-xl-4 col-md-6 mb-30">
-                    <div class="home-blog-style-one-item wow fadeInUp" data-wow-delay="400ms">
-                        <div class="thumb">
-                            <img src="assets/img/blog/4.jpg" alt="Image not Found">
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="#">Pizza</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="content">
-                            <div class="info">
-                                <h4 class="post-title">
-                                    <a href="blog-single-with-sidebar.html">Minuter him own clothes but observe country at the maintaining.</a>
-                                </h4>
-                                <ul class="meta-tags">
-                                    <li>15 June, 2024</li>
-                                    <li><a href="#">Md Sohag</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-            </div>
-        </div>
-    </div>
-    <!-- End Blog -->
 
     <?php include ('footer.php');?>
