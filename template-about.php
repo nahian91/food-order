@@ -1,7 +1,13 @@
-<?php include ("header.php");?>
+<?php 
+
+/*
+Template Name: About
+*/
+
+get_header();?>
     
 
-<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/breadcumb.jpg);">
+<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/breadcumb.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -22,7 +28,7 @@
             <div class="row align-center">
                 <div class="col-lg-6">
                     <div class="thumb-style-one">
-                        <img class="wow fadeInUp" src="assets/img/about/1.jpg" alt="Image Not Found">
+                        <img class="wow fadeInUp" src="<?php echo get_template_directory_uri();?>/assets/img/about/1.jpg" alt="Image Not Found">
                         <div class="contact-card-one wow fadeInLeft" data-wow-delay="200ms">
                             <a href="tel:+4733378901">
                                 <div class="icon">
@@ -66,27 +72,27 @@
                         <div class="swiper-wrapper">
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/1.png" alt="Thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/brand/1.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/2.png" alt="Thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/brand/2.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/2.png" alt="Thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/brand/2.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/4.png" alt="Thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/brand/4.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/brand/5.png" alt="Thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/brand/5.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                         </div>
@@ -117,7 +123,7 @@
                 <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp">
                         <div class="thumb">
-                            <img src="assets/img/team/1.jpg" alt="Image Not Found">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/img/team/1.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -147,7 +153,7 @@
                  <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp" data-wow-delay="100ms">
                         <div class="thumb">
-                            <img src="assets/img/team/2.jpg" alt="Image Not Found">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/img/team/2.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -177,7 +183,7 @@
                  <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp" data-wow-delay="200ms">
                         <div class="thumb">
-                            <img src="assets/img/team/3.jpg" alt="Image Not Found">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/img/team/3.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -207,7 +213,7 @@
                  <div class="col-lg-3 col-md-6 chef-one-single mb-30">
                     <div class="chef-style-one-item wow fadeInUp" data-wow-delay="300ms">
                         <div class="thumb">
-                            <img src="assets/img/team/4.jpg" alt="Image Not Found">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/img/team/4.jpg" alt="Image Not Found">
                             <ul class="chef-one-social">
                                 <li class="facebook">
                                     <a href="#">
@@ -238,4 +244,4 @@
     </div>
     <!-- End Chef Area -->
 
-   <?php include ("footer.php");?>
+<?php get_footer();?>

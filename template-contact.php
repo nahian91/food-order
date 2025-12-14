@@ -1,6 +1,12 @@
-<?php include ("header.php");?>
+<?php 
 
-<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/breadcumb.jpg);">
+/*
+Template Name: Contact
+*/
+
+get_header();?>
+
+<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/breadcumb.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -63,7 +69,7 @@
                             <h5 class="sub-title">Keep in touch</h5>
                             <h2 class="heading">Send us a Massage</h2>
                         </div>
-                        <form action="assets/mail/contact.php" method="POST" class="contact-form contact-form">
+                        <form action="<?php echo get_template_directory_uri();?>/assets/mail/contact.php" method="POST" class="contact-form contact-form">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
@@ -112,4 +118,4 @@
         </div>
     </div>
 
-<?php include ("footer.php");?>
+<?php get_footer();?>

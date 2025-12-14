@@ -1,6 +1,12 @@
-<?php include ("header.php");?>
+<?php 
 
-<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/breadcumb.jpg);">
+/*
+Template Name: Menu
+*/
+
+get_header();?>
+
+<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/breadcumb.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -60,7 +66,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt=""></div>
             <div class="content">
                 <div class="top">
                     <div class="title"><h4>Meal for 1 Person</h4></div>
@@ -74,7 +80,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/2.jpg" alt=""></div>
             <div class="content">
                 <div class="top">
                     <div class="title"><h4>Non Vegetarian Thali for 2 People</h4></div>
@@ -88,7 +94,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/3.jpg" alt=""></div>
             <div class="content">
                 <div class="top">
                     <div class="title"><h4>Vegetable Set Meal for 1 Person</h4></div>
@@ -102,7 +108,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/4.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/4.jpg" alt=""></div>
             <div class="content">
                 <div class="top">
                     <div class="title"><h4>Meal for 2 Anarkali</h4></div>
@@ -116,7 +122,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/5.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/5.jpg" alt=""></div>
             <div class="content">
                 <div class="top">
                     <div class="title"><h4>Meal for 2 Mahraja</h4></div>
@@ -137,7 +143,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Onion Bhaji</h4></div><div class="price"><span>£3.25</span></div></div>
                 <div class="bottom"><p></p></div>
@@ -146,7 +152,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/2.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chingri Puri</h4></div><div class="price"><span>£4.50</span></div></div>
                 <div class="bottom"><p>Small sea prawns stir fried in Goan style with spring onions and tomatoes in medium spices, served with home made puri bread.</p></div>
@@ -155,7 +161,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/3.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Samosa Meat</h4></div><div class="price"><span>£3.05</span></div></div>
                 <div class="bottom"><p></p></div>
@@ -164,7 +170,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/4.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/4.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>King Prawn Butterfly</h4></div><div class="price"><span>£5.85</span></div></div>
                 <div class="bottom"><p>Fried with breadcrumbs.</p></div>
@@ -173,7 +179,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/5.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/5.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Pakora</h4></div><div class="price"><span>£3.95</span></div></div>
                 <div class="bottom"><p></p></div>
@@ -189,7 +195,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Tikka</h4></div><div class="price"><span>£5.95</span></div></div>
                 <div class="bottom"><p>Chunks of chicken marinated with spices and cooked in the tandoor.</p></div>
@@ -198,7 +204,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/2.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Shashlik</h4></div><div class="price"><span>£6.95</span></div></div>
                 <div class="bottom"><p>Chicken tikka cooked with onions, peppers and tomato sauce in tandoor.</p></div>
@@ -207,7 +213,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/3.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Tandoori</h4></div><div class="price"><span>£6.50</span></div></div>
                 <div class="bottom"><p>Half chicken marinated with yogurt and tandoori spices, cooked in tandoor.</p></div>
@@ -222,7 +228,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>King Prawn Masala</h4></div><div class="price"><span>£12.95</span></div></div>
                 <div class="bottom"><p>Fresh king prawns cooked in a spicy masala sauce with onions and peppers.</p></div>
@@ -231,7 +237,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/2.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Lamb Tikka Masala</h4></div><div class="price"><span>£10.95</span></div></div>
                 <div class="bottom"><p>Tender lamb chunks cooked in creamy tomato masala sauce.</p></div>
@@ -240,7 +246,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/3.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Korma</h4></div><div class="price"><span>£9.95</span></div></div>
                 <div class="bottom"><p>Chicken cooked with cream, almonds, and mild spices for a delicate flavor.</p></div>
@@ -255,7 +261,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>King Prawn Curry</h4></div><div class="price"><span>£12.95</span></div></div>
                 <div class="bottom"><p>King prawns cooked in a medium spiced curry sauce with fresh herbs.</p></div>
@@ -264,7 +270,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/2.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>King Prawn Bhuna</h4></div><div class="price"><span>£12.95</span></div></div>
                 <div class="bottom"><p>Prawns cooked in thick spicy bhuna sauce with onions and tomatoes.</p></div>
@@ -273,7 +279,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/3.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Fish Masala</h4></div><div class="price"><span>£11.95</span></div></div>
                 <div class="bottom"><p>Fresh fish fillets cooked in traditional masala sauce with medium spices.</p></div>
@@ -288,7 +294,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Curry</h4></div><div class="price"><span>£8.95</span></div></div>
                 <div class="bottom"><p>Classic chicken curry cooked with medium spices and fresh herbs.</p></div>
@@ -297,7 +303,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/2.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Lamb Curry</h4></div><div class="price"><span>£9.95</span></div></div>
                 <div class="bottom"><p>Succulent lamb cooked in traditional curry sauce with medium spices.</p></div>
@@ -306,7 +312,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/3.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Vegetable Curry</h4></div><div class="price"><span>£7.95</span></div></div>
                 <div class="bottom"><p>Seasonal vegetables cooked in mild curry sauce with herbs and spices.</p></div>
@@ -321,7 +327,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/1.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Balti</h4></div><div class="price"><span>£9.50</span></div></div>
                 <div class="bottom"><p>Chicken cooked in a thick balti sauce with peppers and onions.</p></div>
@@ -330,7 +336,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/2.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Lamb Balti</h4></div><div class="price"><span>£10.50</span></div></div>
                 <div class="bottom"><p>Lamb cooked in traditional balti sauce with medium spices.</p></div>
@@ -339,7 +345,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/3.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Vegetable Balti</h4></div><div class="price"><span>£8.50</span></div></div>
                 <div class="bottom"><p>Seasonal vegetables cooked in balti sauce with mild spices.</p></div>
@@ -355,7 +361,7 @@
     <ul class="meal-items">
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Chicken Bhuna</h4></div><div class="price"><span>£9.00</span></div></div>
                 <div class="bottom"><p>Chicken cooked in thick bhuna sauce with aromatic spices.</p></div>
@@ -364,7 +370,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/bhuna-2.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/bhuna-2.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Lamb Bhuna</h4></div><div class="price"><span>£10.00</span></div></div>
                 <div class="bottom"><p>Lamb slow-cooked in bhuna sauce with onions and spices.</p></div>
@@ -373,7 +379,7 @@
         </li>
 
         <li>
-            <div class="thumbnail"><img src="assets/img/food/bhuna-3.jpg" alt=""></div>
+            <div class="thumbnail"><img src="<?php echo get_template_directory_uri();?>/assets/img/food/bhuna-3.jpg" alt=""></div>
             <div class="content">
                 <div class="top"><div class="title"><h4>Vegetable Bhuna</h4></div><div class="price"><span>£8.00</span></div></div>
                 <div class="bottom"><p>Mixed vegetables cooked in bhuna sauce with medium spices.</p></div>
@@ -495,7 +501,7 @@
 
 </style>
 
-<?php include ("footer.php");?>
+<?php get_footer();?>
 
 
 <script>

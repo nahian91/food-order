@@ -1,6 +1,12 @@
-<?php include ("header.php");?>
+<?php 
 
-<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/breadcumb.jpg);">
+/*
+Template Name: Gallery
+*/
+
+get_header();?>
+
+<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/breadcumb.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -36,8 +42,8 @@
                         <div class="pf-item wow fadeInUp">
                             <div class="gallery-style-one">
                                 <div class="item">
-                                    <a href="assets/img/gallery/2.jpg" class="popup-gallery">
-                                        <img src="assets/img/gallery/2.jpg" alt="Image Not Found">
+                                    <a href="<?php echo get_template_directory_uri();?>/assets/img/gallery/2.jpg" class="popup-gallery">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/gallery/2.jpg" alt="Image Not Found">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </div>
@@ -48,8 +54,8 @@
                         <div class="pf-item wow fadeInUp">
                             <div class="gallery-style-one">
                                 <div class="item">
-                                    <a href="assets/img/gallery/1.jpg" class="popup-gallery">
-                                        <img src="assets/img/gallery/1.jpg" alt="Image Not Found">
+                                    <a href="<?php echo get_template_directory_uri();?>/assets/img/gallery/1.jpg" class="popup-gallery">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/gallery/1.jpg" alt="Image Not Found">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </div>
@@ -60,8 +66,8 @@
                         <div class="pf-item wow fadeInUp">
                             <div class="gallery-style-one">
                                 <div class="item">
-                                    <a href="assets/img/gallery/5.jpg" class="popup-gallery">
-                                        <img src="assets/img/gallery/5.jpg" alt="Image Not Found">
+                                    <a href="<?php echo get_template_directory_uri();?>/assets/img/gallery/5.jpg" class="popup-gallery">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/gallery/5.jpg" alt="Image Not Found">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </div>
@@ -72,8 +78,8 @@
                         <div class="pf-item wow fadeInUp">
                             <div class="gallery-style-one">
                                 <div class="item">
-                                    <a href="assets/img/gallery/6.jpg" class="popup-gallery">
-                                        <img src="assets/img/gallery/6.jpg" alt="Image Not Found">
+                                    <a href="<?php echo get_template_directory_uri();?>/assets/img/gallery/6.jpg" class="popup-gallery">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/gallery/6.jpg" alt="Image Not Found">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </div>
@@ -84,8 +90,8 @@
                         <div class="pf-item wow fadeInUp">
                             <div class="gallery-style-one">
                                 <div class="item">
-                                    <a href="assets/img/gallery/3.jpg" class="popup-gallery">
-                                        <img src="assets/img/gallery/3.jpg" alt="Image Not Found">
+                                    <a href="<?php echo get_template_directory_uri();?>/assets/img/gallery/3.jpg" class="popup-gallery">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/gallery/3.jpg" alt="Image Not Found">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </div>
@@ -99,4 +105,4 @@
     </div>
     <!-- End Food Gallery -->
 
-<?php include ("footer.php");?>
+<?php get_footer();?>

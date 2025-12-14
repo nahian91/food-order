@@ -1,6 +1,12 @@
-<?php include ("header.php");?>
+<?php 
 
-<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/breadcumb.jpg);">
+/*
+Template Name: Reviews
+*/
+
+get_header();?>
+
+<div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/breadcumb.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -17,7 +23,7 @@
 
 <!-- Start Testimonial 
     ============================================= -->
-    <div class="testimonial-style-one-area default-padding bg-gray bg-cover text-center" style="background-image: url(assets/img/shape/4.jpg);">
+    <div class="testimonial-style-one-area default-padding bg-gray bg-cover text-center" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/shape/4.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -40,8 +46,8 @@
                                         "Thanks to your web agency team for their professional work. The website they created for my business exceeded my expectations, and my clients have given positive feedback about its design and user-friendliness."
                                     </p>
                                     <div class="tm-proivder-thumb">
-                                        <img src="assets/img/food/1.jpg" alt="Image Not Found">
-                                        <img src="assets/img/team/10.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/team/10.jpg" alt="Image Not Found">
                                     </div>
                                 </div>
                             </div>
@@ -70,8 +76,8 @@
                                         "Thanks to your web agency team for their professional work. The website they created for my business exceeded my expectations, and my clients have given positive feedback about its design and user-friendliness."
                                     </p>
                                     <div class="tm-proivder-thumb">
-                                        <img src="assets/img/food/6.jpg" alt="Image Not Found">
-                                        <img src="assets/img/team/11.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/food/6.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/team/11.jpg" alt="Image Not Found">
                                     </div>
                                 </div>
                             </div>
@@ -100,8 +106,8 @@
                                         "Thanks to your web agency team for their professional work. The website they created for my business exceeded my expectations, and my clients have given positive feedback about its design and user-friendliness."
                                     </p>
                                     <div class="tm-proivder-thumb">
-                                        <img src="assets/img/food/1.jpg" alt="Image Not Found">
-                                        <img src="assets/img/team/10.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/food/1.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/team/10.jpg" alt="Image Not Found">
                                     </div>
                                 </div>
                             </div>
@@ -129,8 +135,8 @@
                                         "Thanks to your web agency team for their professional work. The website they created for my business exceeded my expectations, and my clients have given positive feedback about its design and user-friendliness."
                                     </p>
                                     <div class="tm-proivder-thumb">
-                                        <img src="assets/img/food/6.jpg" alt="Image Not Found">
-                                        <img src="assets/img/team/11.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/food/6.jpg" alt="Image Not Found">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/team/11.jpg" alt="Image Not Found">
                                     </div>
                                 </div>
                             </div>
@@ -143,4 +149,5 @@
     </div>
     <!-- End Testimonial Area -->
 
-<?php include ("footer.php");?>
+<?php get_footer();?>
+

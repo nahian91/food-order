@@ -1,36 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- ========== Page Title ========== -->
-    <title>Spice of India</title>
-
-    <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-    <!-- ========== Start Stylesheet ========== -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/flaticon-set.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-datepicker3.css" rel="stylesheet">
-    <link href="assets/css/validnavs.css" rel="stylesheet">
-    <link href="assets/css/helper.css" rel="stylesheet">
-    <link href="assets/css/unit-test.css" rel="stylesheet">
-    <link href="assets/css/shop.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <!-- ========== End Stylesheet ========== -->
-
+    <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
+
 
     <div class="radio-btn-light">
         <div class="radio-inner-light"></div>
@@ -72,12 +51,12 @@
                     <ul class="item-flex">
                         <li>
                              <a href="tel:+4733378901"> 
-                                <img src="assets/img/icon/10.png" alt="Icon"> Phone: +4733378901
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/icon/10.png" alt="Icon"> Phone: +4733378901
                             </a>
                         </li>
                         <li>
                             <a href="mailto:name@email.com">
-                                <img src="assets/img/icon/11.png" alt="Icon"> Email: food@restan.com
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/icon/11.png" alt="Icon"> Email: food@restan.com
                             </a>
                         </li>
                     </ul>
@@ -142,9 +121,9 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" class="regular-img logo logo-display" alt="Logo">
-                        <img src="assets/img/logo-light.png" class="dark-img logo logo-display" alt="Logo">
-                        <img src="assets/img/logo.png" class="logo logo-scrolled" alt="Logo">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" class="regular-img logo logo-display" alt="Logo">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/logo-light.png" class="dark-img logo logo-display" alt="Logo">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" class="logo logo-scrolled" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -152,7 +131,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
-                    <img src="assets/img/logo.png" alt="Logo">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="Logo">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-times"></i>
                     </button>
